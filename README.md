@@ -1,3 +1,8 @@
+# About the Repository
+This repository is the extension of previous work done in mentioned repository below.
+The repository was established as a part academic work, to understand how VAE are implemented for collaborative filtering.
+	[Link to repository](https://github.com/psywaves/EVCF)
+
 # Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms
 This is the source code used for experiments for the paper published in RecSys '19:  
 "Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms"    

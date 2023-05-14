@@ -108,7 +108,7 @@ def evaluate_vae(args, model, train_loader, data_loader, epoch, dir, mode):
     evaluate_loss /= len(data_loader)  # loss function already averages over batch size
     evaluate_re /= len(data_loader)  # re already averages over batch size
     evaluate_kl /= len(data_loader)  # kl already averages over batch size
-
+    print(ndcg_dist)
     evaluate_ndcg = ndcg_dist.mean().data.item()
 
     if mode == 'test':
